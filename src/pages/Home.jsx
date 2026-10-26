@@ -6,7 +6,7 @@ import ConceptCard from '../components/ConceptCard';
 import ConceptModal from '../components/ConceptModal';
 
 export default function Home() {
-  const [name, setName] = useState('Alex');
+  const [name, setName] = useState('');
   const [selectedConcept, setSelectedConcept] = useState(null);
 
   return (

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function ConceptMiniDemo({ conceptId }) {
   const [val, setVal] = useState('');
   const [submitMsg, setSubmitMsg] = useState('');
-  const [form, setForm] = useState({ name: 'Alex', email: 'alex@mail.com' });
+  const [form, setForm] = useState({ name: '', email: '' });
   const [pass, setPass] = useState('');
 
   if (conceptId === 'useState' || conceptId === 'onChange') {

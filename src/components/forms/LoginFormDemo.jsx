@@ -48,7 +48,7 @@ export default function LoginFormDemo() {
           <label className="block text-xs font-semibold text-slate-700 mb-1">Email</label>
           <input
             type="email"
-            placeholder="name@example.com"
+            placeholder="enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:border-indigo-600"
